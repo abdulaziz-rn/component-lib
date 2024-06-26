@@ -27,7 +27,6 @@ import _ from 'lodash'
 import { setSingleHeader } from '../services/common';
 @inject('authentication', 'common', 'sanar')
 @observer export class GettingStarted extends Component<Props> {
-    // added comment
     constructor(props) {
         super(props)
         this.state = {
